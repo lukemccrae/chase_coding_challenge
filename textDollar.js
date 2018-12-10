@@ -78,4 +78,8 @@ function textDollar(num) {
   return result.join('') + 'Dollars';
 }
 
-console.log(textDollar(1021));
+console.log(textDollar(3) == 'ThreeDollars');
+console.log(textDollar(466) == 'FourHundredSixtySixDollars');
+console.log(textDollar(1234) == 'OneThousandTwoHundredThirtyFourDollars');
+console.log(textDollar(10) == 'TenDollars');
+console.log(textDollar(21) == 'TwentyOneDollars');
